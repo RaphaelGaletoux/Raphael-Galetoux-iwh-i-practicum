@@ -10,26 +10,6 @@ h1 {
     margin: 1rem;
 }
 
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.card {
-    flex-basis: 31%;
-    margin: 1rem 0.4rem;
-    padding: 1rem 0.4rem 2.5rem 0.4rem;
-    border: solid 1px lightgrey;
-    border-radius: 15px;
-    box-shadow: 3px 2px 6px lightgrey;
-}
-
-.card__email {
-    font-size: 1rem;
-}
-
 .form-wrapper {
     font-size: 18px;
     max-width: 768px;
@@ -50,9 +30,23 @@ input[type="text"] {
     padding: .25rem;
 }
 
+textarea {
+    padding: .25rem;
+    width: 100%;
+}
+
 input[type="submit"] {
     background-color: lightgrey;
     border: none;
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+
+th {
+    background-color: rgba(250, 128, 114, 0.726);
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
